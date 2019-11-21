@@ -9,7 +9,7 @@ For creating base web-component
 [![Known Vulnerabilities](https://snyk.io/test/github/OReshetnikov/cwc-cli/badge.svg?targetFile=package.json)](https://snyk.io/test/github/OReshetnikov/cwc-cli?targetFile=package.json)
 [![Dependencies Status](https://david-dm.org/OReshetnikov/cwc-cli/status.svg)](https://david-dm.org/OReshetnikov/cwc-cli)
 [![devDependencies Status](https://david-dm.org/OReshetnikov/cwc-cli/dev-status.svg)](https://david-dm.org/OReshetnikov/cwc-cli?type=dev)
-[![License](https://img.shields.io/npm/l/cwc-cli.svg)](https://github.com/oreshetnikov/cwc-cli/blob/master/package.json)
+[![License](https://img.shields.io/github/license/OReshetnikov/cwc-cli)](https://github.com/OReshetnikov/cwc-cli/blob/master/LICENSE)
 
 <!-- toc -->
 * [Usage](#usage)
