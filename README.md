@@ -1,12 +1,15 @@
-wc-cli
+cwc-cli
 ======
 
 For creating base web-component
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/wc-cli.svg)](https://npmjs.org/package/wc-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/wc-cli.svg)](https://npmjs.org/package/wc-cli)
-[![License](https://img.shields.io/npm/l/wc-cli.svg)](https://github.com/oreshetnikov/wc-cli/blob/master/package.json)
+[![Build Status](https://travis-ci.com/OReshetnikov/cwc-cli.svg?branch=master)](https://travis-ci.com/OReshetnikov/cwc-cli)
+[![Maintainability](https://api.codeclimate.com/v1/badges/39f6c875b2059bcef536/maintainability)](https://codeclimate.com/github/OReshetnikov/cwc-cli/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/39f6c875b2059bcef536/test_coverage)](https://codeclimate.com/github/OReshetnikov/cwc-cli/test_coverage)
+[![Known Vulnerabilities](https://snyk.io/test/github/OReshetnikov/cwc-cli/badge.svg?targetFile=package.json)](https://snyk.io/test/github/OReshetnikov/cwc-cli?targetFile=package.json)
+[![Dependencies Status](https://david-dm.org/OReshetnikov/cwc-cli/status.svg)](https://david-dm.org/OReshetnikov/cwc-cli)
+[![devDependencies Status](https://david-dm.org/OReshetnikov/cwc-cli/dev-status.svg)](https://david-dm.org/OReshetnikov/cwc-cli?type=dev)
+[![License](https://img.shields.io/npm/l/cwc-cli.svg)](https://github.com/oreshetnikov/cwc-cli/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -15,11 +18,11 @@ For creating base web-component
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g wc-cli
+$ npm install -g cwc-cli
 $ wc-base COMMAND
 running command...
 $ wc-base (-v|--version|version)
-wc-cli/0.0.1 win32-x64 node-v11.12.0
+cwc-cli/0.0.1 win32-x64 node-v11.12.0
 $ wc-base --help [COMMAND]
 USAGE
   $ wc-base COMMAND
@@ -47,7 +50,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src\commands\hello.js](https://github.com/oreshetnikov/wc-cli/blob/v0.0.1/src\commands\hello.js)_
+_See code: [src\commands\hello.js](https://github.com/oreshetnikov/cwc-cli/blob/v0.0.1/src\commands\hello.js)_
 
 ## `wc-base help [COMMAND]`
 

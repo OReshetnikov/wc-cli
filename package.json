@@ -1,12 +1,12 @@
 {
-  "name": "wc-cli",
-  "description": "For creating base web-component",
+  "name": "cwc-cli",
+  "description": "Create simple web-component",
   "version": "0.0.1",
   "author": "Oleksandr Reshetnikov",
   "bin": {
     "wc-base": "./bin/run"
   },
-  "bugs": "https://github.com/oreshetnikov/wc-cli/issues",
+  "bugs": "https://github.com/oreshetnikov/cwc-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
@@ -32,7 +32,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/oreshetnikov/wc-cli",
+  "homepage": "https://github.com/oreshetnikov/cwc-cli",
   "keywords": [
     "oclif"
   ],
@@ -45,7 +45,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oreshetnikov/wc-cli",
+  "repository": "oreshetnikov/cwc-cli",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint .",
