@@ -1,5 +1,14 @@
 language: node_js
 node_js:
   - 8.0
+branches:
+  only:
+    - master
+    - develop
+cache:
+  directories:
+    - node_modules
+script:
+  - npm run coveralls
 install:
-  npm install --ignore-scripts
+  - npm install --ignore-scripts
