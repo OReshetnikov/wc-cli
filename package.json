@@ -15,9 +15,14 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2",
     "@oclif/test": "^1.2.5",
+    "babel-eslint": "^10.0.3",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-oclif": "^3.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
     "globby": "^10.0.1",
     "mocha": "^5.2.0",
     "nyc": "^14.1.1",
@@ -47,9 +52,11 @@
   },
   "repository": "oreshetnikov/cwc-cli",
   "scripts": {
+    "fix": "eslint --ext .js --ignore-path .eslintignore . --fix",
+    "lint": "eslint --ext .js --ignore-path .eslintignore .",
     "postpack": "rimraf oclif.manifest.json",
-    "posttest": "eslint .",
-    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "precommit": "npm run lint",
+    "prepack": "oclif-dev manifest && oclif-dev readme && oclif-dev manifest && oclif-dev readme",
     "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
     "version": "oclif-dev readme && git add README.md"
   }
