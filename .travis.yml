@@ -8,7 +8,7 @@ branches:
 cache:
   directories:
     - node_modules
-script:
-  - npm run test
+#script:
+#  - npm run test
 install:
   - npm install --ignore-scripts
