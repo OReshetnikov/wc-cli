@@ -7,9 +7,7 @@ Create simple web-component
 [![Maintainability](https://api.codeclimate.com/v1/badges/39f6c875b2059bcef536/maintainability)](https://codeclimate.com/github/OReshetnikov/cwc-cli/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/OReshetnikov/cwc-cli/badge.svg?branch=develop)](https://coveralls.io/github/OReshetnikov/cwc-cli?branch=develop)
 [![Known Vulnerabilities](https://snyk.io/test/github/OReshetnikov/cwc-cli/badge.svg?targetFile=package.json)](https://snyk.io/test/github/OReshetnikov/cwc-cli?targetFile=package.json)
-[![Dependencies](https://david-dm.org/OReshetnikov/cwc-cli/status.svg)](https://david-dm.org/OReshetnikov/cwc-cli)
 [![Version](https://img.shields.io/npm/v/cwc-cli.svg)](https://npmjs.org/package/cwc-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/cwc-cli.svg)](https://npmjs.org/package/cwc-cli)
 [![License](https://img.shields.io/npm/l/cwc-cli.svg)](https://github.com/oreshetnikov/cwc-cli/blob/master/package.json)
 <!-- toc -->
 * [Usage](#usage)
